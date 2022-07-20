@@ -24,6 +24,7 @@ function App() {
           <Route path="list" element={<ListProducts />} />
           <Route path="add" element={<AddProduct />} />
           <Route path=":id" element={<ProductDisplay />} />
+          {/* path="products/:id" 이렇게 적어도 되나 생략 가능하다*/}
         </Route>
       </Routes>
     </Router>
